@@ -58,8 +58,7 @@ class LoginScreen extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => ContentState(
-                                  title: usernameController.text)));
+                              builder: (context) => const TabBarDemo()));
                     }
                   },
                   child: const Text("Login")),
